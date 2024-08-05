@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Serigne Moussa Kandji</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="image/image.jpg" alt="Serigne Moussa Kandji">
+            <h1>Serigne Moussa Kandji</h1>
+            <p>Étudiant en deuxième année de développement web, passionné par la création de solutions innovantes. Compétent en HTML, CSS, JavaScript, et familiarisé avec React et Node.js. Motivé par l’apprentissage continu et prêt à contribuer à des projets ambitieux.</p>
+            <a href="#contact" class="btn">start</a>
+        </div>
+    </header>
+    
+    <section id="about" class="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis Serigne Moussa Kandji, un étudiant passionné par le développement web. Mon objectif est de créer des solutions innovantes qui répondent aux besoins des utilisateurs. J'ai une forte compétence en HTML, CSS, et JavaScript, et je continue d'élargir mes compétences en apprenant React et Node.js.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Compétences</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react"></i>
+                <p>React</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-node-js"></i>
+                <p>Node.js</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-bootstrap"></i>
+                <p>Bootstrap</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-github"></i>
+                <p>GitHub</p>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="service">
+            <img src="image/image2.png" alt="Form App">
+            <h2>Form App</h2>
+            <p>
+                Création d'une plateforme Form-App. FormApp est une plateforme intuitive et puissante dédiée à la création, la gestion et l'analyse de formulaires en ligne. Conçue pour simplifier le processus de collecte de données, FormApp permet aux utilisateurs de créer des formulaires personnalisés adaptés à divers besoins, qu'il s'agisse de sondages, d'enquêtes, d'inscriptions ou de feedbacks clients.
+            </p>
+            <button>Know more</button>
+        </div>
+        <div class="service">
+            <img src="image/image.png" alt="Gestion Hotel">
+            <h2>Gestion hotel</h2>
+            <p>
+                Système de gestion d'hôtel avec React et Js. La Plateforme de Gestion d'Hôtel est une solution tout-en-un conçue pour simplifier et automatiser les opérations quotidiennes des établissements hôteliers, allant des petits bed and breakfast aux grands hôtels. Cette plateforme permet aux gestionnaires d'hôtel de centraliser et d'optimiser la gestion de leurs activités, tout en offrant une expérience utilisateur fluide et intuitive.
+            </p>
+            <button>Know more</button>
+        </div>
+    </section>
+   
+    
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="send_email.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Serigne Moussa Kandji. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
